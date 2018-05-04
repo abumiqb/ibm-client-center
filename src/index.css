@@ -1,0 +1,49 @@
+.flyout {
+  display:flex;
+  flex-direction: column;
+  min-height:100vh;
+  justify-content: space-between;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.home-feature-box .fa {
+  font-size:8.8rem;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.home-feature-box span {
+  display: block;
+  color:#111;
+  font-weight:bold;
+  margin-top:3rem;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.example-components-list li > a {
+  display:block;
+  border-bottom:1px solid rgba(0,0,0,.15);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.example-components-list li:last-child > a {
+  border-bottom:0;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.example-components-list li > a .fa {
+  color:rgba(0,0,0,.35);
+  float:right;
+  font-family: 'IBM Plex Serif', serif;
+}
+footer
+{
+  background-color: #466BB0;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+p {
+  color: white !important;
+  font-family: 'IBM Plex Serif', serif;
+}
